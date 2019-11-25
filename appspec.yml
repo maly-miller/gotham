@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/airflowusr/gothamdeploy
+permissions:
+  - object: /home/airflowusr
+    owner: airflowusr
+    group: airflowusr
+hooks:
+   AfterInstall:
+   - location: cont_int/deploy/deploybuild.sh
+     runas: airflowusr

@@ -1,0 +1,13 @@
+plan:
+=========
+compare new sf plugin code to my old code, databricks code
+remove old code
+need to add support code at all?
+set SF hook settings in GUI
+
+distro tracker hook:
+name: distro-API
+type: HTTP
+ip: 52.86.157.38
+port: 8080
+
